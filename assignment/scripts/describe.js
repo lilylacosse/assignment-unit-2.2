@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We declare the variable name and set it equal to the string Dane
+// We create a conditional statment that returns 'Hi, Mary!' on the console if name is equal to the string Mary; any other value assigned to the variable name will return 'How do you do?' on the console
+// Because the value Dane is assigned to name, which is not equal to the value Mary, the console logs 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variable secret but assign it no value.
+// We declare the variable code and assign it the number 123
+// we create a conditional statement that assigns secret a new value of super and multiplies the value of code by 2 if code is equal to 123, which is it is. Since this conditional is true, secret is now equal to super and code is now equal to 246.
+// We create a 2nd conditional that updates the value of secret to duper if the value of code is greater than 250. It is not, so no update is made to secret, and secret remains super. 
+//After both of these conditionals run, when we console.log the value of secret, the console returns super.  
 
 //CODE
 /*
@@ -70,8 +71,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We delcare 3 variables: isStudent, value: true, age, value: 34, & zip, value: 5407
+// We create a conditional with four possible outcomes. 
 // 
 //
 
