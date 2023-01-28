@@ -73,8 +73,11 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We delcare 3 variables: isStudent, value: true, age, value: 34, & zip, value: 5407
 // We create a conditional with four possible outcomes. 
-// 
-//
+// 1. If isStudent is true & zip is greater than 8000 then the console returns You're a student on the West Coast! Since the first statment is true, but the second statment is false, nothing is returned by the console. Both statments needed to be true to fulfill the condition. We move on to the next statment. 
+//2. The first else if states that if isStudent equals false, OR age is less than 30, then the console logs What are your hobbies? Since neither of these statements is true, the console logs nothing. We move on to the next statment.
+//3. The second else if states if isStudent equals true then the console logs Welcome to Prime! isStudent is equal to true, so the console returns Welcome to Prime! 
+//4. Satisfied, the conditional stops running. However, had  3rd statement also not be satisfied, the final statement would be evaluated as true, logging How about the weather? on the console. 
+
 
 //CODE
 /*
