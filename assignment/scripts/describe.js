@@ -140,6 +140,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX - we only set colorOne to 'purple', we also need to set colorTwo to 'purple' using the same syntax as we did for colorOne 
 }
 */
 
@@ -149,6 +150,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//FIX - time is set as a constant, not a variable.  We need to change the line below to read let time = 4; which is the syntax for declaring a variable. 
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -169,5 +171,6 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+// FIX - We flipflopped our console.logs. We want console.log 'enter' to follow our if statment and console.log 'no entry' to follow our else statment. 
 */
 
