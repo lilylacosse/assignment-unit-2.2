@@ -71,7 +71,7 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We delcare 3 variables: isStudent, value: true, age, value: 34, & zip, value: 5407
+// We delcare 3 variables: isStudent, value: true, age, value: 34, & zip, value: 55407
 // We create a conditional with four possible outcomes. 
 // 1. If isStudent is true & zip is greater than 8000 then the console returns You're a student on the West Coast! Since the first statment is true, but the second statment is false, nothing is returned by the console. Both statments needed to be true to fulfill the condition. We move on to the next statment. 
 //2. The first else if states that if isStudent equals false, OR age is less than 30, then the console logs What are your hobbies? Since neither of these statements is true, the console logs nothing. We move on to the next statment.
@@ -150,9 +150,9 @@ if (mix === true) {
 
 /*
 let temp = 40;
-//FIX - time is set as a constant, not a variable.  We need to change the line below to read let time = 4; which is the syntax for declaring a variable. 
 const time = 4;
 
+//FIX - Right now, our if is an OR statment. Only one side of the equation has to be true in order for the console to return 'throw away the food'. We need to change || to &&. This AND statment will require that both sides of the equation are true for the console to return 'throw away the food', which stasifies the intstructions above. 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
